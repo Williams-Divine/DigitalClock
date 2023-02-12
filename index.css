@@ -2,8 +2,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color:black ;
- 
+  background-color:black;
 }
 body h1{
   font-size: 1.5rem !important; 
@@ -15,19 +14,16 @@ body h1{
   text-align: center;
   font-weight: bold;
   width: 80vw;
-  margin: auto;
-  
+  margin: auto;  
 }
 #time{
   font-size: 5rem;
   color:#3cb9fc ;
-  text-shadow: 0 0 2rem;
-  
+  text-shadow: 0 0 2rem; 
 }
 #container, body h1 {
   text-align: center;
 }
-
 button {
   padding: 2% ;
   margin: 10px;
