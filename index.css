@@ -16,13 +16,12 @@ body h1{
   font-weight: bold;
   width: 80vw;
   margin: auto;
-  
 }
 #time{
   font-size: 5rem;
   color:#3cb9fc ;
   text-shadow: 0 0 2rem;
-  
+
 }
 #container, body h1 {
   text-align: center;
