@@ -22,14 +22,26 @@ function updateClock() {
 
 setInterval(updateClock, 1000);
 //Background changers
-document.getElementById("teal").addEventListener("click", function() {
-  document.body.style.backgroundColor = "#008080";
+
+// THEME1
+document.getElementById("theme1").addEventListener("click", function() {
+  document.body.style.backgroundColor = "#140142";
+  document.body.style.color = "#F0A07C";
+  document.getElementById("time").style.color = "#F0A07C"
+ 
 });
 
-document.getElementById("green").addEventListener("click", function() {
-  document.body.style.backgroundColor = "hsl(96, 51%, 51%)";
+// THEME2
+document.getElementById("theme2").addEventListener("click", function() {
+  document.body.style.backgroundColor = "#161B21";
+  document.body.style.color = "#F4A950";
+  document.getElementById("time").style.color = "#F4A950"
 });
 
-document.getElementById("amber").addEventListener("click", function() {
-  document.body.style.backgroundColor = "#fdb750";
+// THEME3
+document.getElementById("theme3").addEventListener("click", function() {
+  document.body.style.backgroundColor = "#295F2D";
+  document.body.style.color = "#FFE67C";
+  document.getElementById("time").style.color = "#FFE67C"
+
 });

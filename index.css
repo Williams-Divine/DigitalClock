@@ -2,35 +2,45 @@
   box-sizing: border-box;
 }
 body{
-  background-color:rgb(77, 160, 199) ;
+  background-color:black ;
+ 
+}
+body h1{
+  font-size: 1.5rem !important; 
+  font-weight: bold;
+  margin-top: 3rem;
+  text-shadow: 0 0 2rem;
 }
 #clock {
   text-align: center;
-  font-size: 50px;
   font-weight: bold;
-  color: #333 rgb(0, 0, 0);
-  border: 2px dashed;
-  width: fit-content;
+  width: 80vw;
   margin: auto;
-  padding:0 2px ;
+  
 }
-#container {
+#time{
+  font-size: 5rem;
+  color:#3cb9fc ;
+  text-shadow: 0 0 2rem;
+}
+#container, body h1 {
   text-align: center;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 2% ;
   margin: 10px;
-  background-color: #fff;
   cursor: pointer;
-  border: 1px dashed black;
+  width: 5%;
+  border: 1px solid white;
+  border-radius: 15rem;
 }
-#teal{
-  background-color: #008080;
+#theme1{
+  background-color: #140142;
 }
-#green{
-  background-color: hsl(96, 51%, 51%);
+#theme2{
+  background-color: #161B21;
 }
-#amber{
-  background-color: #fdb750;
+#theme3{
+  background-color: #295F2D;
 }
