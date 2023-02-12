@@ -1,4 +1,5 @@
 //Function for digital clock
+
 function updateClock() {
   var now = new Date();
   var hours = now.getHours();
