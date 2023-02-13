@@ -28,10 +28,10 @@ body h1{
 }
 
 button {
-  padding: 2% ;
+  padding: .5rem ;
   margin: 10px;
   cursor: pointer;
-  width: 5%;
+  width: 1rem;
   border: 1px solid white;
   border-radius: 15rem;
 }
